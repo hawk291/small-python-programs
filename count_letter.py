@@ -1,5 +1,7 @@
 #!/usr/bin/python3.7
 
+# counts words with matched letter
+
 import re
 
 def count_letter(words, letter):

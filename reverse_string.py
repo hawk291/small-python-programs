@@ -7,7 +7,7 @@ def reverse(w):
    explode_word = list(w)
    for i in range(len(explode_word)):
        reversed_word.append(explode_word.pop())
-   print('Your string' + w + ' has been reversed to ', end=' ')
+   print('Your string ' + w + ' has been reversed to', end=' ')
    print(*reversed_word)
 
 word = 'alice'
